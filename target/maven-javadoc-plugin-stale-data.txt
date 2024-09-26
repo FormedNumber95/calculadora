@@ -1,0 +1,49 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/Aketza/.m2/repository/org/openjfx/javafx-fxml/11/javafx-fxml-11.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-media/11/javafx-media-11.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11.jar'
+--module-path
+'C:/Users/Aketza/.m2/repository/org/openjfx/javafx-fxml/11/javafx-fxml-11-win.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11-win.jar;C:/Users/Aketza/Desktop/clase/DEIN/calculadora/target/classes;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-media/11/javafx-media-11-win.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar;C:/Users/Aketza/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-win.jar'
+--patch-module
+es.aketzagonzalez='C:/Users/Aketza/Desktop/clase/DEIN/calculadora/src/main/java'
+-encoding
+'UTF-8'
+-protected
+--module-source-path
+'C:/Users/Aketza/Desktop/clase/DEIN/calculadora/target/reports/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Aketza/Desktop/clase/DEIN/calculadora/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'calculadora 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'calculadora 0.0.1-SNAPSHOT API'
+es.aketzagonzalez.calculadora
+'C:/Users/Aketza/Desktop/clase/DEIN/calculadora/src/main/java/module-info.java'
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\allclasses-index.html = 1727363948868
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\allpackages-index.html = 1727363948873
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\element-list = 1727363948756
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\help-doc.html = 1727363948914
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\index-all.html = 1727363948900
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\index.html = 1727363948904
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\jquery-ui.overrides.css = 1727363948944
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\member-search-index.js = 1727363948882
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\module-search-index.js = 1727363948876
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\overview-tree.html = 1727363948842
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\package-search-index.js = 1727363948878
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\script.js = 1727363948921
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\search.js = 1727363948925
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\stylesheet.css = 1727363948918
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\tag-search-index.js = 1727363948884
+C:\Users\Aketza\Desktop\clase\DEIN\calculadora\target\reports\apidocs\type-search-index.js = 1727363948880
