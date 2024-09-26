@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.aketzagonzalez.calculadora.calculadoraController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Label text="Operador1" />
+            <TextField fx:id="txtOperador1" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Label text="Operador2" />
+            <TextField fx:id="txtOperador2" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="47.0" prefWidth="392.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <RadioButton fx:id="radBtnSumar" contentDisplay="TOP" mnemonicParsing="false" prefHeight="24.0" prefWidth="73.0" text="Sumar">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="grupoOpciones" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="radBtnMultiplicar" mnemonicParsing="false" text="Multiplicar" toggleGroup="$grupoOpciones" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <RadioButton fx:id="radBtnRestar" mnemonicParsing="false" text="Restar" toggleGroup="$grupoOpciones" />
+                  <RadioButton fx:id="radBtnDividir" mnemonicParsing="false" text="Dividir" toggleGroup="$grupoOpciones" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="63.0" prefWidth="554.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#operarOperacion" text="Operar" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="37.0" prefWidth="392.0">
+         <children>
+            <Label text="Respuesta" />
+            <TextField fx:id="txtRespuesta" editable="false" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
