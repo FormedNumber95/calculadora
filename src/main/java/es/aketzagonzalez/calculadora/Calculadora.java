@@ -68,7 +68,7 @@ public class Calculadora extends Application {
     /**
      * Metodo main que ejecuta el programa.
      *
-     * @param args Los argumentos que se pasan por consola
+     * @param args Los argumentos que se pasan por consola, ninguno
      */
     public static void main(String[] args) {
         launch(args);
